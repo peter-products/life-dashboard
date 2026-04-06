@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  /* Pacific Storm — deep forest, copper, ocean */
+  --color-night: #1c2530;
+  --color-night-light: #263545;
+
+  --color-forest: #1e3a2f;
+  --color-forest-mid: #2d5245;
+  --color-forest-light: #d2e0cc;
+
+  --color-copper: #b85c2a;
+  --color-copper-light: #d4956a;
+  --color-copper-dark: #8a4420;
+
+  --color-ocean: #1e3d50;
+  --color-ocean-mid: #2a5a72;
+  --color-ocean-light: #c8dce8;
+
+  --color-sand: #e8dcc8;
+  --color-cream: #f0e8d8;
+
+  --color-text: #1a1a1a;
+  --color-text-muted: #6b7280;
+  --color-text-faint: #9ca3af;
+}
+
+@layer base {
+  html {
+    font-size: 20px;
+  }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: var(--color-night);
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+  }
+}
