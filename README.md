@@ -70,3 +70,7 @@ This repo intentionally excludes:
 - Any actual scraping target URLs or credentials
 
 The repo demonstrates the architecture and patterns; the live data stays on my machine.
+
+---
+
+_Also by me: [pads.tax](https://pads.tax) · [schemafinder.com](https://schemafinder.com)_
